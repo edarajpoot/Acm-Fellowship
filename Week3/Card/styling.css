@@ -21,7 +21,7 @@ body{
     height: 400px;
     box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
     border-radius: 5px;
-    overflow: hidden;
+    
 }
 
 #top-section {
@@ -112,4 +112,11 @@ ul {
     list-style: none;
     font-size: 0.9rem;
     opacity: 0.8;
+}
+@media (max-width: 650px)
+{
+#bottom-right-section, #bottom-left-section, #card {
+    width:100%;
+    height: auto;
+}
 }
